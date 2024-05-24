@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOANNETUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_about.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">[ B I O ] annetus</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+  <br> <br> 
+
+
+    <div class="container-fluid">
+        <div id="card0" class="marginBot">
+            <div class="row mx-5 marginTop justify-content-center " >
+                <p class="p4"> ABOUT THE COMPANY </p> 
+                <div class="col-md-2"></div>
+                <div class="card col-md-8 p-4" >
+                    <p class="p5 " style="font-size:2.5vmax;"> We sell products and stuff at the cheapest prices. What are you waiting for? Go ahead and waste all your hard-earned money. After all, you truly deserve it because you are <i> very </i> hardworking. </p> 
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+            <div class="justify-content-center">           
+                <p class="p1"> FOUNDERS </p> 
+                <div class="m-3 p-4 card">
+                    <div class="m-3 p-4 row  justify-content-center">
+                        <div class="card col-md-4 mx-5" id="card1">
+                            <div class="card-body">
+                                <img class="card-img" src="gieul.png" alt="">
+                                <p class="p3 ">  Gieul Samuel Montefalco  </p> 
+                            </div>
+                        </div>
+                      <div class="col-md-4 mx-5 p2 mt-md-5"  >
+                        <p class="text-md-center"> Coded the functionality for the <a href="index.html">[HOME]</a> page.<br><br>Debugging.<br><br>Error checking.<br><br>Made the <a href="index.html">[HOME]</a> page responsive.<br><br>Came up with the website name.</p>
+                    </div>
+                    </div>
+                </div>
+          </div>
+          <div class="m-3 p-4 card">
+            <div class="m-3 p-4 row mx-5  justify-content-center " >
+                <div class="col-md-4 mx-5 p2 mt-md-5"  >
+                    <p class="text-md-center"> Did the website layout.<br><br>Coded the design aspect for the <a href="index.html">[HOME]</a> page.<br><br>Came up with the concept for the shop and did the assets.<br><br>Helped with the website name.</p>
+                </div>
+             <div class="card col-md-4 mx-5 " id="card2">
+                <div class="card-body">
+                    <img class="img-fluid" src="car.jfif" alt="">
+                    <p class="p3 "> Caroline Grace Sanguyu <br>   </p> 
+                </div>
+            </div>
+          </div>
+          </div>
+      
+      <div class="m-3 p-4 card">
+        <div class="m-3 p-4 row mx-5 justify-content-center ">
+     
+            <div class="card col-md-4 mx-5 " id="card3">
+               <div class="card-body">
+                   <img class="card-img" src="Cuevas.png" alt="Arvrisse Claire Cuevas">
+                   <p class="p3">  Arvrisse Claire Cuevas  </p>  
+               </div>    
+           </div>
+           
+           <div class="col-md-4 mx-5 p2 mt-md-5"  >
+               <p class="text-md-center"> Coded the <a href="about.html">[ABOUT US]</a> page. <br><br> Did the graphic design for the <a href="about.html">[ABOUT US]</a> page. <br><br> Made the <a href="about.html">[ABOUT US]</a> page responsive. <br><br> Wrote the about the company section.</p>
+           
+           </div>
+                
+           </div>
+      </div>
+     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+             $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+</body>
+</html>
